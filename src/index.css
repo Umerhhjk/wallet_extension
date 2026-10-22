@@ -1,0 +1,14 @@
+/* src/index.css */
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  /* Dark background for the browser window to make the extension pop out */
+  background-color: #111827; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, sans-serif;
+}
